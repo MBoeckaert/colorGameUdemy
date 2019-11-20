@@ -1,0 +1,49 @@
+html{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+p{
+    color: blue;
+}
+
+h1{
+    color: white;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+.centerSettings{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.settings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 60vw;
+}
+.answer{
+    display: flex;
+}
+
+.difficulty{
+    display: flex;
+}
+.container{
+    max-width: 60vw;
+    margin: 0 auto;
+}
+.square{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+}
